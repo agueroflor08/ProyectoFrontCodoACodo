@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+header{
+    height: 15vh;
+}
+header figure{
+    height: 15vh;
+}
+header figure img{
+    height: 100%;
+}
+figure, h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+.navbar{
+    background-color: rgb(245, 192, 60) !important;
+}
+.navbar a{
+    color: black !important;
+}
+
+.navbar-brand{
+    display: none;
+}
+.card-body .btn-primary{
+    background-color: rgb(245, 192, 60);
+    color: black;
+    border: 0.1em black solid;
+}
+.card{
+    background-color: rgb(245, 192, 60);
+}
+footer{
+    background-color: rgb(245, 192, 60);
+}
+/** CSS PARA CELULAR **/
+@media screen and (min-width:320px){
+
+    /*galeria*/
+    #cont-galeria{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: auto;
+    }
+  
+    #cont-galeria .card{
+        width: 95% !important;
+        height: 50%;
+        margin: 0.5em;
+    }
+
+    h2{
+        padding: 0.5em;
+        font-style: italic;
+    }
+    .cont-principal figure{
+        width: 95%;
+    }
+    .cont-principal figure img{
+        width: 100%;
+        height: 80%;
+        margin: 0.5em;
+    }
+    h3{
+        padding: 0.5em;
+    }
+    .cont-principal p{
+        margin: 0.5em;
+    }
+    /*Formulario*/
+    .form-suscp{
+        margin: 0.5em;
+    }
+    .form-suscp .form-check-label{
+        font-style: italic;
+    }
+    .cont-form .form-suscp .btn-primary{
+        background-color: rgb(245, 192, 60);
+        color: black;
+        border: 0.1em black solid;
+   }
+   footer p{
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
+    
+   }
+   footer{
+    height: 10vh;
+   }
+ }
+
+/** CSS PARA PC **/
+@media all and (min-width:720px){
+
+    /*galeria*/
+    #cont-galeria{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+    }
+  
+    #cont-galeria .card{
+        width: 30% !important;
+        height: 20%;
+        margin: 1em;
+    }
+    /*Botones de la galería*/
+    .card-body .btn-primary:focus, .btn-primary:hover{
+        background-color: rgb(202, 147, 10) !important;
+        color: white !important;
+        transition: background-color 1s ease !important; 
+    }
+    /*Boton del menú*/
+    
+    .btn{
+        color: black !important;
+        border: black 0.1em solid !important;
+    }
+    .btn:hover, .btn:focus{
+        background-color: rgb(202, 147, 10) !important;
+        color: white !important;
+        transition: background-color 1s ease !important;   
+    }
+    .navbar a:hover, .navbar:focus {
+        font-size: 1.1em !important;
+        color: white !important;
+        transition: font-size 1s ease;
+    }
+    .cont-principal{
+        width: 100%;
+    }
+    .cont-principal figure{
+        width: 45%;
+        float: left;
+        margin-right: 1em;
+    }
+   .form-suscp{
+    margin: auto;
+    width: 80%;
+    padding: 1em;
+   }
+   h4{
+    text-align: center;
+    font-style: italic;
+   }
+ }
