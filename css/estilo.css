@@ -46,6 +46,9 @@ footer{
         color: white !important;
         transition: background-color 1s ease !important;   
     }
+    .btn{
+        border: 0.1em black solid;
+    }
     /*galeria*/
     #cont-galeria{
         display: flex;
