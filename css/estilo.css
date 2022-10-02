@@ -41,6 +41,11 @@ footer{
 /** CSS PARA CELULAR **/
 @media screen and (min-width:320px){
 
+    .btn:hover, .btn:focus{
+        background-color: rgb(202, 147, 10) !important;
+        color: white !important;
+        transition: background-color 1s ease !important;   
+    }
     /*galeria*/
     #cont-galeria{
         display: flex;
@@ -126,11 +131,6 @@ footer{
     .btn{
         color: black !important;
         border: black 0.1em solid !important;
-    }
-    .btn:hover, .btn:focus{
-        background-color: rgb(202, 147, 10) !important;
-        color: white !important;
-        transition: background-color 1s ease !important;   
     }
     .navbar a:hover, .navbar:focus {
         font-size: 1.1em !important;
