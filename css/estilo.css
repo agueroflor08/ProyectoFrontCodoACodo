@@ -39,6 +39,7 @@ figure, h1{
 }
 footer{
     background-color: rgb(245, 192, 60);
+    height: 30vh;
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
@@ -67,15 +68,16 @@ p{
     #cont-galeria{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
         margin: auto;
     }
   
     #cont-galeria .card{
-        width: 95% !important;
-        height: 50%;
-        margin: 0.5em;
+        width: 60% !important;
+        height: 25%;
+        margin: auto;
+        margin-top: 0.5em;
     }
 
     h2{
@@ -102,6 +104,9 @@ p{
     .form-suscp{
         margin: 0.5em;
     }
+    .cont-form{
+        margin-top: 1em;
+    }
     .form-suscp .form-check-label{
         font-style: italic;
     }
@@ -120,6 +125,7 @@ p{
     font-style: italic;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-top: 1em;
     }
     footer .cont-img-footer{
         display: inline-block;
@@ -154,6 +160,7 @@ p{
         height: 20%;
         margin: 1em;
     }
+    
     /*Botones de la galería*/
     .card-body .btn-primary:focus, .btn-primary:hover{
         background-color: rgb(202, 147, 10) !important;
