@@ -39,7 +39,6 @@ figure, h1{
 }
 footer{
     background-color: rgb(245, 192, 60);
-    height: 30vh;
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
@@ -139,6 +138,10 @@ p{
     footer .cont-img-footer a img:hover, footer .cont-img-footer a img:focus{
         width: 10.5%;
         transition: width 1s ease;
+    }
+    footer{
+        height: 35vh;
+        width: 100%;
     }
  }
 
