@@ -125,12 +125,12 @@ p{
         display: inline-block;
         text-align: center;
     }
-    footer .cont-img-footer img{
+    footer .cont-img-footer a img{
         width: 10%;
         margin-left: 0.5em;
         margin-right: 0.5em;
     }
-    footer .cont-img-footer img:hover, footer .cont-img-footer img:focus{
+    footer .cont-img-footer a img:hover, footer .cont-img-footer a img:focus{
         width: 10.5%;
         transition: width 1s ease;
     }
@@ -188,12 +188,12 @@ p{
     text-align: center;
     font-style: italic;
    }
-   footer .cont-img-footer img{
+   footer .cont-img-footer a img{
     width: 3%;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-footer .cont-img-footer img:hover, footer .cont-img-footer img:focus{
+footer .cont-img-footer a img:hover, footer .cont-img-footer a img:focus{
     width: 3.5%;
     transition: width 1s ease;
 }
