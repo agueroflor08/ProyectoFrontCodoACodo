@@ -139,10 +139,7 @@ p{
         width: 10.5%;
         transition: width 1s ease;
     }
-    footer{
-        height: 35vh;
-        width: 100%;
-    }
+    
  }
 
 /** CSS PARA PC **/
