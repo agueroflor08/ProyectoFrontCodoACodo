@@ -39,9 +39,13 @@ figure, h1{
 }
 footer{
     background-color: rgb(245, 192, 60);
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 p{
     font-family: 'Source Sans Pro', sans-serif;
+    margin: o;
 }
 
 /** CSS PARA CELULAR **/
@@ -113,15 +117,16 @@ p{
         color: black;
         border: 0.1em black solid;
     }
+    /*Pie de página*/
    footer .p-footer1{
     text-align: center;
     padding-top: 1em;
+    margin-bottom: 1em;
     font-style: italic;
     }
    footer .p-footer2{
     text-align: center;
     font-style: italic;
-    padding-top: 1em;
     padding-bottom: 1em;
     margin-top: 1em;
     }
